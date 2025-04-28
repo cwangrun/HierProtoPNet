@@ -17,7 +17,7 @@ To prevent redundancy and increase utility of the prototypes, we devise a novel 
 Also, we introduce a dynamic knowledge distillation strategy that allows transferring essential classification information across hierarchical levels, thereby improving generalisation performance. 
 
 <div align=center>
-<img width="900" height="250" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
+<img width="900" height="240" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
 </div>
 
 
@@ -32,22 +32,22 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 2. Each prototype is visualized as the nearest non-repetitive training patch representing its corresponding disease class using push.py.
 
 
-## Interpretable reasoning:
+## Prototype visualisation:
 CIPL leverages disentangled class prototypes, learned from the training set, as anchors for diagnostic reasoning.
 To understand the decision process for a given test image, run interpretable_reasoning.py. 
 This will generate a set of similarity (activation) maps that highlight the correspondence between the test image and the prototypes of each disease class, providing insights into the model's reasoning.
 
 <div align=center>
-<img width="630" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+<img width="630" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
 </div>
 
 
 
-## Results:
+## Lision/disease localisation:
 CIPL demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
 
 <div align=center>
-<img width="880" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
+<img width="880" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray"/></dev>
 </div>
 
 
