@@ -47,11 +47,11 @@ HierProtoPNet generates sementically-dissimilar prototypes at different hierarch
 CIPL demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
 
 <div align=center>
-<img width="880" height="470" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
+<img width="800" height="420" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
 
 <div align=center>
-<img width="600" height="510" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
+<img width="600" height="500" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
 
 
