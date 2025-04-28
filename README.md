@@ -1,0 +1,56 @@
+# Hierarchical Multi-level Prototypes (HierProtoPNet)
+
+### Pytorch implementation for the IEEE JBHI (2025) paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)"
+
+
+In this work, we present the Cross- and Intra-image Prototypical Learning (CIPL) framework for accurate multi-label disease diagnosis and interpretation.
+CIPL takes advantage of cross-image common semantics to disentangle multiple diseases during the prototype learning, ensuring high-quality prototypes in the multi-label interpretation setting.
+Additionally, a two-level alignment-based regularization strategy enhances interpretation robustness and predictive performance by enforcing consistent intra-image information.
+Email: chongwangsmu@gmail.com.
+
+<div align=center>
+<img width="900" height="390" src="https://github.com/cwangrun/CIPL/blob/master/arch/arch.png"/></dev>
+</div>
+
+
+## Datasets:
+1. Mammographic images ([CSAW-S](https://github.com/ChrisMats/CSAW-S))
+2. OCT images ([NEH](https://data.mendeley.com/datasets/8kt969dhx6/1))
+3. NIH chest X-rays ([NIH ChestX-ray14](https://www.kaggle.com/datasets/nih-chest-xrays/data))
+
+
+## Training and Testing:
+1. Run python main.py to train the model and evaluate its disease diagnosis accuracy. Our trained models are provided at [ChestX-ray14](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link) and [ODIR](https://drive.google.com/file/d/1ykIhO6d2AqFO0Wy4Rmr4VIzvTVeoQIaQ/view?usp=drive_link):
+2. Each prototype is visualized as the nearest non-repetitive training patch representing its corresponding disease class using push.py.
+
+
+## Interpretable reasoning:
+CIPL leverages disentangled class prototypes, learned from the training set, as anchors for diagnostic reasoning.
+To understand the decision process for a given test image, run interpretable_reasoning.py. 
+This will generate a set of similarity (activation) maps that highlight the correspondence between the test image and the prototypes of each disease class, providing insights into the model's reasoning.
+
+<div align=center>
+<img width="630" height="400" src="https://github.com/cwangrun/CIPL/blob/master/arch/reasoning.png"/></dev>
+</div>
+
+
+
+## Results:
+CIPL demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
+
+<div align=center>
+<img width="880" height="400" src="https://github.com/cwangrun/CIPL/blob/master/arch/prototype.png"/></dev>
+</div>
+
+
+
+## Citation:
+```
+@article{wang2025progressive,
+  title={Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation},
+  author={Wang, Chong and Liu, Fengbei and Chen, Yuanhong and Kwok, Chun Fung and Elliott, Michael and Pena-Solorzano, Carlos and McCarthy, Davis James and Frazer, Helen and Carneiro, Gustavo},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2025},
+  publisher={IEEE}
+}
+```
