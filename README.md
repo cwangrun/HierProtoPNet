@@ -47,11 +47,11 @@ This will generate a set of similarity (activation) maps that highlight the corr
 CIPL demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
 
 <div align=center>
-<img width="880" height="500" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
+<img width="880" height="480" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
 
 <div align=center>
-<img width="880" height="550" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
+<img width="780" height="550" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
 
 
