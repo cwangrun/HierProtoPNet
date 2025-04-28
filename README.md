@@ -29,7 +29,7 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 ## Training:
 Training procedures and details can be found in main.py.
-Our trained chest X-ray model is provided [here](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link).
+Our trained chest X-ray model is provided [here](https://drive.google.com/file/d/1HA2W9oCpd4FKOU2XkDdUiK6oG4HqmANC/view?usp=drive_link).
 
 
 ## Prototype visualisation:
