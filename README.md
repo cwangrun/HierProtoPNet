@@ -3,7 +3,7 @@
 ### Pytorch implementation for the IEEE JBHI paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)"
 
 
-In this work, we present the Cross- and Intra-image Prototypical Learning (CIPL) framework for accurate multi-label disease diagnosis and interpretation.
+This appraoch leverages hierachial prototypes for hierarchical visual prototypes across different semantic feature granularities to effectively capture diverse lesion patterns. 
 CIPL takes advantage of cross-image common semantics to disentangle multiple diseases during the prototype learning, ensuring high-quality prototypes in the multi-label interpretation setting.
 Additionally, a two-level alignment-based regularization strategy enhances interpretation robustness and predictive performance by enforcing consistent intra-image information.
 Email: chongwangsmu@gmail.com.
