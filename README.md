@@ -6,6 +6,10 @@
 
 medical image analysis tasks need to handling the complexity of diverse lesion characteristics. 
 
+<div align=center>
+<img width="630" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+</div>
+
 ## Method:
 This appraoch leverages hierachial prototypes for hierarchical visual prototypes across different semantic feature granularities to effectively capture diverse lesion patterns. 
 CIPL takes advantage of cross-image common semantics to disentangle multiple diseases during the prototype learning, ensuring high-quality prototypes in the multi-label interpretation setting.
