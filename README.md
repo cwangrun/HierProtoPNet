@@ -1,6 +1,6 @@
 # Hierarchical Multi-level Prototypes (HierProtoPNet)
 
-### Pytorch implementation for the IEEE JBHI (2025) paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)"
+### Pytorch implementation for the IEEE JBHI paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)"
 
 
 In this work, we present the Cross- and Intra-image Prototypical Learning (CIPL) framework for accurate multi-label disease diagnosis and interpretation.
