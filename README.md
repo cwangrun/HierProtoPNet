@@ -38,7 +38,7 @@ To understand the decision process for a given test image, run interpretable_rea
 This will generate a set of similarity (activation) maps that highlight the correspondence between the test image and the prototypes of each disease class, providing insights into the model's reasoning.
 
 <div align=center>
-<img width="900" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
+<img width="900" height="300" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
 </div>
 
 
