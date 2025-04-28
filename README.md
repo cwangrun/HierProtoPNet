@@ -28,14 +28,14 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 
 ## Training/Testing:
-1. Run python main.py to train the model and evaluate its disease diagnosis accuracy. Our trained models are provided at [ChestX-ray14](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link) and [ODIR](https://drive.google.com/file/d/1ykIhO6d2AqFO0Wy4Rmr4VIzvTVeoQIaQ/view?usp=drive_link):
-2. Each prototype is visualized as the nearest non-repetitive training patch representing its corresponding disease class using push.py.
+Run python main.py to train the model and evaluate its disease diagnosis accuracy.
+Our trained models are provided at [ChestX-ray14](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link) and [ODIR](https://drive.google.com/file/d/1ykIhO6d2AqFO0Wy4Rmr4VIzvTVeoQIaQ/view?usp=drive_link):
+
 
 
 ## Prototype visualisation:
-CIPL leverages disentangled class prototypes, learned from the training set, as anchors for diagnostic reasoning.
-To understand the decision process for a given test image, run interpretable_reasoning.py. 
-This will generate a set of similarity (activation) maps that highlight the correspondence between the test image and the prototypes of each disease class, providing insights into the model's reasoning.
+Prototypes from different levels are visualized as their nearest training image patch.
+CIPL generate sementically-dissimilar prototypes at different hierarchical levels due to the prototype mining paradigm: high-level prototypes focus on the most salient cancerous areas, the mid-level prototypes localise the difficult (i.e., less conspicuous) cancer-boundary areas, and the low-level prototypes capture sparser and finer cancer regions.
 
 <div align=center>
 <img width="900" height="325" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
