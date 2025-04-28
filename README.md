@@ -13,8 +13,8 @@ medical image analysis tasks need to handling the complexity of diverse lesion c
 
 ## Method:
 This appraoch leverages hierachial prototypes for hierarchical visual prototypes across different semantic feature granularities to effectively capture diverse lesion patterns. 
-CIPL takes advantage of cross-image common semantics to disentangle multiple diseases during the prototype learning, ensuring high-quality prototypes in the multi-label interpretation setting.
-Additionally, a two-level alignment-based regularization strategy enhances interpretation robustness and predictive performance by enforcing consistent intra-image information.
+To prevent redundancy and increase utility of the prototypes, we devise a novel prototype mining paradigm to progressively discover semantically distinct prototypes, offering multi-level complementary analysis of lesions. 
+Also, we introduce a dynamic knowledge distillation strategy that allows transferring essential classification information across hierarchical levels, thereby improving generalisation performance. 
 
 
 <div align=center>
