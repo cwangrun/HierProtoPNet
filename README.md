@@ -8,7 +8,7 @@ Email: chongwangsmu@gmail.com.
 medical image analysis tasks need to handling the complexity of diverse lesion characteristics.
 
 <div align=center>
-<img width="330" height="400" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+<img width="630" height="300" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
 </div>
 
 ## Method:
@@ -18,7 +18,7 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 
 <div align=center>
-<img width="900" height="280" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
+<img width="900" height="270" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
 </div>
 
 
