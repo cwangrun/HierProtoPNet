@@ -8,7 +8,7 @@ Email: chongwangsmu@gmail.com.
 medical image analysis tasks need to handling the complexity of diverse lesion characteristics.
 
 <div align=center>
-<img width="630" height="280" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+<img width="630" height="270" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
 </div>
 
 ## Method:
