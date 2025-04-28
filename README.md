@@ -51,7 +51,7 @@ CIPL demonstrates high-quality visual prototypes that are both disentangled and 
 </div>
 
 <div align=center>
-<img width="780" height="550" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
+<img width="700" height="550" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
 
 
