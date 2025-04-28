@@ -43,7 +43,7 @@ This will generate a set of similarity (activation) maps that highlight the corr
 
 
 
-## Lesion/disease Localisation:
+## Lesion Localisation:
 CIPL demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
 
 <div align=center>
