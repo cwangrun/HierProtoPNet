@@ -18,7 +18,7 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 
 <div align=center>
-<img width="700" height="390" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
+<img width="900" height="300" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
 </div>
 
 
