@@ -43,12 +43,12 @@ HierProtoPNet generates semantically-dissimilar prototypes at different hierarch
 
 
 ## Lesion Localisation:
-Breast cancer: demonstrates high-quality visual prototypes that are both disentangled and accurate (aligning well with actual lesion signs), outperforming previous studies. For further details, please refer to our paper.
+Breast cancer:  For further details, please refer to our paper.
 <div align=center>
 <img width="800" height="420" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
 
-Breast cancer:
+Thoracic disease:
 <div align=center>
 <img width="600" height="500" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
