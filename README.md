@@ -5,7 +5,7 @@ Email: chongwangsmu@gmail.com.
 
 ## Introducation:
 
-medical image analysis tasks need to handling the complexity of diverse lesion characteristics.
+Medical image analysis tasks need to handle the complexity of diverse lesion characteristics: considerable size, shape, and appearance variations of the lesion structures from the same disease class.
 
 <div align=center>
 <img width="630" height="275" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
