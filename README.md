@@ -28,7 +28,7 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 
 ## Training:
-Training procedure and details can be found in main.py.
+Training procedures and details can be found in main.py.
 Our trained chest X-ray model is provided [here](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link).
 
 
@@ -43,7 +43,7 @@ HierProtoPNet generates semantically-dissimilar prototypes at different hierarch
 
 
 ## Lesion Localisation:
-Breast cancer:  For further details, please refer to our paper.
+Breast cancer:
 <div align=center>
 <img width="800" height="420" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
