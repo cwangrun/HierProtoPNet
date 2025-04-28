@@ -12,8 +12,8 @@ medical image analysis tasks need to handling the complexity of diverse lesion c
 </div>
 
 ## Method:
-This appraoch leverages hierachial prototypes for hierarchical visual prototypes across different semantic feature granularities to effectively capture diverse lesion patterns. 
-To prevent redundancy and increase utility of the prototypes, we devise a novel prototype mining paradigm to progressively discover semantically distinct prototypes, offering multi-level complementary analysis of lesions. 
+This appraoch leverages hierarchical visual prototypes across different semantic feature granularities to effectively capture diverse lesion patterns. 
+To increase utility of the prototypes, we devise a prototype mining paradigm to progressively discover semantically distinct prototypes, offering multi-level complementary analysis of complex lesions. 
 Also, we introduce a dynamic knowledge distillation strategy that allows transferring essential classification information across hierarchical levels, thereby improving generalisation performance. 
 
 <div align=center>
