@@ -8,7 +8,7 @@ Email: chongwangsmu@gmail.com.
 medical image analysis tasks need to handling the complexity of diverse lesion characteristics.
 
 <div align=center>
-<img width="630" height="270" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+<img width="630" height="275" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
 </div>
 
 ## Method:
@@ -38,7 +38,7 @@ To understand the decision process for a given test image, run interpretable_rea
 This will generate a set of similarity (activation) maps that highlight the correspondence between the test image and the prototypes of each disease class, providing insights into the model's reasoning.
 
 <div align=center>
-<img width="900" height="320" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
+<img width="900" height="325" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
 </div>
 
 
