@@ -29,8 +29,7 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 
 ## Training/Testing:
 Run python main.py to train the model and evaluate its disease diagnosis accuracy.
-Our trained models are provided at [ChestX-ray14](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link) and [ODIR](https://drive.google.com/file/d/1ykIhO6d2AqFO0Wy4Rmr4VIzvTVeoQIaQ/view?usp=drive_link):
-
+Our trained chest X-ray models are provided [here](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link).
 
 
 ## Prototype visualisation:
