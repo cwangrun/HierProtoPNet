@@ -34,11 +34,11 @@ Our trained models are provided at [ChestX-ray14](https://drive.google.com/file/
 
 
 ## Prototype visualisation:
-Prototypes from different levels are visualized as their nearest training image patch.
-CIPL generate sementically-dissimilar prototypes at different hierarchical levels due to the prototype mining paradigm: high-level prototypes focus on the most salient cancerous areas, the mid-level prototypes localise the difficult (i.e., less conspicuous) cancer-boundary areas, and the low-level prototypes capture sparser and finer cancer regions.
+Prototypes are visualized as their nearest training image patches.
+HierProtoPNet generates sementically-dissimilar prototypes at different hierarchical levels due to the prototype mining paradigm: high-level prototypes focus on the most salient cancerous areas, the mid-level prototypes localise the difficult (i.e., less conspicuous) cancer-boundary areas, and the low-level prototypes capture sparser and finer cancer regions.
 
 <div align=center>
-<img width="900" height="325" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
+<img width="900" height="320" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
 </div>
 
 
@@ -51,7 +51,7 @@ CIPL demonstrates high-quality visual prototypes that are both disentangled and 
 </div>
 
 <div align=center>
-<img width="650" height="550" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
+<img width="600" height="510" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
 
 
