@@ -8,7 +8,7 @@ Email: chongwangsmu@gmail.com.
 medical image analysis tasks need to handling the complexity of diverse lesion characteristics.
 
 <div align=center>
-<img width="630" height="300" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
+<img width="630" height="280" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
 </div>
 
 ## Method:
@@ -16,9 +16,8 @@ This appraoch leverages hierachial prototypes for hierarchical visual prototypes
 To prevent redundancy and increase utility of the prototypes, we devise a novel prototype mining paradigm to progressively discover semantically distinct prototypes, offering multi-level complementary analysis of lesions. 
 Also, we introduce a dynamic knowledge distillation strategy that allows transferring essential classification information across hierarchical levels, thereby improving generalisation performance. 
 
-
 <div align=center>
-<img width="900" height="270" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
+<img width="900" height="250" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
 </div>
 
 
