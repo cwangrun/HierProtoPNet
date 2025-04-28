@@ -27,8 +27,8 @@ Also, we introduce a dynamic knowledge distillation strategy that allows transfe
 3. NIH chest X-rays ([NIH ChestX-ray14](https://www.kaggle.com/datasets/nih-chest-xrays/data))
 
 
-## Training/Testing:
-Run python main.py to train the model and evaluate its disease diagnosis accuracy.
+## Training:
+Training procedure and details can be found in main.py.
 Our trained chest X-ray models are provided [here](https://drive.google.com/file/d/1svxfab5YG2BVoSKe99krhwWeqQyQFUqw/view?usp=drive_link).
 
 
@@ -37,7 +37,7 @@ Prototypes are visualized as their nearest training image patches.
 HierProtoPNet generates sementically-dissimilar prototypes at different hierarchical levels due to the prototype mining paradigm: high-level prototypes focus on the most salient cancerous areas, the mid-level prototypes localise the difficult (i.e., less conspicuous) cancer-boundary areas, and the low-level prototypes capture sparser and finer cancer regions.
 
 <div align=center>
-<img width="900" height="320" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
+<img width="900" height="315" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/prototypes.png"/></dev>
 </div>
 
 
