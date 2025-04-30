@@ -1,11 +1,11 @@
 # Hierarchical Multi-level Prototypes (HierProtoPNet)
 
-### Pytorch implementation for the IEEE JBHI paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)"
+### Pytorch implementation for our IEEE JBHI paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)".
 Email: chongwangsmu@gmail.com.
 
 ## Introducation:
 
-Medical image analysis tasks need to handle the complexity of diverse lesion characteristics: considerable size, shape, and appearance variations of the lesion structures from the same disease class.
+Medical image analysis tasks need to handle the complexity of diverse lesion characteristics: considerable size, shape, and appearance variations of the lesion structure.
 
 <div align=center>
 <img width="630" height="275" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/intro.png"/></dev>
