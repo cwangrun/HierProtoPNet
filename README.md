@@ -48,7 +48,7 @@ Breast cancer:
 <img width="800" height="420" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
 
- 
+__Thoracic disease:__
 Thoracic disease:
 <div align=center>
 <img width="600" height="450" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
