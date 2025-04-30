@@ -17,7 +17,7 @@ To increase utility of the prototypes, we devise a prototype mining paradigm to 
 Also, we introduce a dynamic knowledge distillation strategy that allows transferring essential classification information across hierarchical levels, thereby improving generalisation performance. 
 
 <div align=center>
-<img width="900" height="240" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
+<img width="900" height="220" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/arch.png"/></dev>
 </div>
 
 
@@ -51,7 +51,7 @@ Breast cancer:
  
 Thoracic disease:
 <div align=center>
-<img width="600" height="500" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
+<img width="600" height="450" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
 
 
