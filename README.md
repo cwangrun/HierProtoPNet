@@ -43,12 +43,12 @@ HierProtoPNet generates semantically-dissimilar prototypes at different hierarch
 
 
 ## Lesion Localisation:
-__Breast cancer:__
+*__Breast cancer:__*
 <div align=center>
 <img width="800" height="420" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/mammo.png"/></dev>
 </div>
 
-__Thoracic disease:__
+*__Thoracic disease:__*
 <div align=center>
 <img width="600" height="450" src="https://github.com/cwangrun/HierProtoPNet/blob/master/img/chestxray.png"/></dev>
 </div>
