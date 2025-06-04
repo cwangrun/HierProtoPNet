@@ -1,4 +1,4 @@
-# Hierarchical Multi-level Prototypes (HierProtoPNet)
+# Hierarchical Prototypes (HierProtoPNet)
 
 ### Pytorch implementation for our IEEE JBHI paper "[Progressive Mining and Dynamic Distillation of Hierarchical Prototypes for Disease Classification and Localisation](https://ieeexplore.ieee.org/abstract/document/10955117)".
 Email: chongwangsmu@gmail.com.
